@@ -1,0 +1,24 @@
+.border {
+    border-radius: 50%;
+}
+.Link {
+    text-decoration: none;
+    color: #687EFF;
+}
+
+.Link:hover {
+    transition: 1s;
+    color: #ffff;
+}
+
+.background {
+    background-color: #131313;
+}
+
+#color {
+    color: #ffff;
+}
+
+nav {
+    grid-area: nav;
+}

@@ -1,0 +1,61 @@
+#Suscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Suscribe form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    background: #003973;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E5E5BE, #003973);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+}
+
+.Text_for_Suscribe {
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn {
+    color: #8c00ff;
+    background: #8c00ff;
+    border: 2px solid #ffffff;
+    border-radius: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #008CBA;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
